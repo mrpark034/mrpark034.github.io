@@ -84,3 +84,12 @@ footer {
   border-radius: 8px;
   margin-bottom: 12px;
 }
+header {
+  margin-bottom: 32px;
+}
+
+.tagline {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+}
+
