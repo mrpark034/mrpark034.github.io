@@ -114,3 +114,56 @@ footer {
 footer p {
   margin-bottom: 0.75rem;
 }
+
+/* ===== Call to Action ===== */
+.cta {
+  margin: 3rem 0;
+}
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 24px;
+  background-color: var(--accent);
+  color: #ffffff;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  opacity: 0.9;
+  text-decoration: none;
+}
+/* ===== Mobile Refinements ===== */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px 16px;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  section {
+    margin-bottom: 2rem;
+  }
+
+  footer {
+    margin-top: 3rem;
+  }
+}
+
+/* ===== Content Rhythm ===== */
+section {
+  margin-bottom: 2.5rem;
+}
+
+p {
+  margin-bottom: 1.25rem;
+}
